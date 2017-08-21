@@ -1,0 +1,27 @@
+
+<!-- <body style=" background-color:blue;"> -->
+
+<div *ngIf="hero">
+
+  <h2>{{hero.name}} details!</h2>
+  <div>
+    <label>id: </label>{{hero.id}}
+  </div>
+	
+  <div>
+    <label>name: </label>
+    <input [(ngModel)]="hero.name" placeholder="name" />
+  </div>
+  
+  <div>
+    <label>price: </label>
+    <input [(ngModel)]="hero.price" placeholder="price"  type="number" min="0" step="1" />
+	<p></p>
+	
+	<img src=" /image/coolwater.jpg" alt="Air" style="width:200px; height:158px;">
+	
+  </div>
+  
+  <button (click)="goBack()">Back</button>
+</div>
+<!-- </body> -->

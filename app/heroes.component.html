@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  
+  
+  
+  </head>
+<body style=" padding: 5%; font: 100% Arial, Helvetica, sans-serif; background-color:	#C4C4C4">
+
+<h2>Items for Sale(heroes.component.html)</h2>
+ 
+ 
+ 
+<ul class="heroes">
+  <li *ngFor="#hero of heroes"
+    [class.selected]="hero === selectedHero"
+    (click)="onSelect(hero)">
+	
+    <span class="badge">{{hero.id}}</span> {{hero.name}}
+	<img src="{{hero.image}}" style="width:111px;" />
+  </li>
+</ul>
+
+<p *ngIf="bob">hi asckajsbckjasbckjasbc kjabs ckajbs ckjabsc kjabsc kjabs ckjasbc kajsbc kajsbc kjasbc kjasbc kjasb ckjasbc kajsbc kajsbc kajsbc kjasbc kjasbc kjabsc kjabs ckjbas ckjab ckjabs ckjabs ckjabs c</p>
+
+<a *ngFor="#hero of heroes"><img (mouseout)="test1(hero)" (mouseover)="test(hero)" class="imgs" src="{{hero.image}}"  /></a>
+
+<div *ngIf="selectedHero">
+  <h2>
+    {{selectedHero.name | uppercase}} is my hero
+  </h2>
+  
+  
+  
+  <button (click)="gotoDetail()">View Details</button>
+</div>
+
+</body>
+
+
+
+
+
+</html>
+
+
+
+
+<!-- <p *ngFor="#hero of heroes"
+    [class.selected]="hero === selectedHero"
+    (click)="onSelect(hero)">
+  <img src=" /image/earth.jpg" alt="Air" style="width:100px; height:58px;">
+   <img src=" /image/coolwater.jpg" alt="Air" style="width:100px; height:58px;">
+  </p> -->

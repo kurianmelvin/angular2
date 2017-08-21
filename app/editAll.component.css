@@ -1,0 +1,37 @@
+.edit{
+ margin-top: 20px;
+  font-family: Arial;
+  background-color: #eee;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  
+  
+  
+}
+.ng-pristine{
+
+	background-color: #FFFFE0;
+	
+}
+.ng-valid:hover{
+	
+	 background-color: #FFD700;
+	
+}
+
+button {
+  font-family: Arial;
+  background-color: #008000;
+  color : #FFFFFF;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  cursor: hand;
+}
+button:hover {
+  background-color: #006400;
+}
+
+

@@ -1,0 +1,32 @@
+
+<!-- <body style=" background-color:blue;"> -->
+<h3>Edit All {EditALL.component.html}</h3>
+
+  <div class = "edit" *ngFor="#hero of heroes" >
+
+  
+  <div class =pic1>
+    <label>id: </label>{{hero.id}}
+	<label>name: </label>
+    <input [(ngModel)]="hero.name" placeholder="name" />
+  
+  
+  
+   
+   
+    <label>price: </label>
+    <input [(ngModel)]="hero.price" placeholder="price" type="number" type="number" min="0" step="1"  />
+	
+	<img src=" /image/avatar.jpg" alt="Air" style="width:100px; height:50px;">
+	
+	
+  </div>
+   
+  
+  
+  
+  
+  	
+  </div>
+
+<!-- </body> -->

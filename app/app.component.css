@@ -1,0 +1,72 @@
+
+
+img:hover {
+	border: 5px solid #9c1b60;
+	background-color: #097054;
+	border-radius: 20px;	
+}
+h1 {
+  font-size: 3em;
+  margin-bottom: 0;
+  background-color: #00449a; /*This is the purple color of Tour of Heroes */
+  color: #ffffff;
+  text-align: left;
+  padding: 15px;
+  border-radius: 20px;
+  
+}
+div.img{	
+	text-align: center;
+}
+
+div.body{	
+	background-color: #eeeeee;  /*This is the background color of the top half of the website */
+	padding: 15px;
+	border-radius: 10px;
+
+}
+div.head_right{
+	 background-color: #e6962b;
+	 padding: 15px;
+	 border-radius: 20px;
+}
+
+h3 {
+  font-size: 1.8em;
+  margin-top: 0;
+  padding-left: 40px;
+  border-radius: 20px;
+} 
+
+nav {
+	text-align: center;
+	padding: 15px;
+	background-color: #00449a;
+	border-radius: 20px;
+}
+nav:hover {
+  color: #039be5;
+  background-color: #353f45;
+  border-radius: 20px;
+}
+nav a {
+  padding: 10px;
+  text-decoration: none;
+  margin-top: 10px;
+  display: inline-block;
+  background-color: #eee;  /*This is the background color of dashboard, heroes, and Edit All */
+  border-radius: 4px;  
+}
+nav a:visited, a:link {
+  color: 	#0000FF;   /*This is the color of main page dashboard, heroes, and Edit All */
+  
+}
+nav a:hover {
+  color: #039be5;
+  background-color: #CFD8DC;  /*This is the background color of main page dashboard, heroes, and Edit All */
+}
+nav a.router-link-active {
+  color: #039be5; /*This is the color of the active page for the main page navigation bar dashboard, heroes, and Edit All */
+}
+
+
